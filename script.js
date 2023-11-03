@@ -19,8 +19,8 @@ function playPause() {
 }
 
 function changeSound(sound) {
-    audio.src = sounds/${sound}.mp3;
-    video.src = videos/${sound}.mp4;
+    audio.src = `sounds/${sound}.mp3`;
+    video.src = `videos/${sound}.mp4`;
     playPause();
 }
 
@@ -47,5 +47,6 @@ function displayTimeLeft(seconds) {
     if (remainderSeconds < 10) {
         remainderSeconds = '0' + remainderSeconds;
     }
-    timeDisplay.textContent = ${minutes}:${remainderSeconds};
+    timeDisplay.textContent = `${minutes}:${remainderSeconds}`;
 }
+
