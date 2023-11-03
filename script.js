@@ -1,5 +1,4 @@
 //your JS code here. If required.
-//your JS code here. If required.
 const video = document.getElementById('video');
 const audio = document.getElementById('audio');
 const timeDisplay = document.querySelector('.time-display');
